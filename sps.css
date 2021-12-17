@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    --primary: #00d2b5;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat";
+}
+
+.header_holder {
+    padding: 33px 15px;
+    width: 8.33%;
+    height: auto;
+}
+
+.logo_text {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.logo_text:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.header_holder span {
+    color: var(--primary);
+}
+
+.desc_image {
+    border: none;
+    background-color: #ffffff;
+}
+
+.desc_image img {
+    cursor: pointer;
+    border: none;
+    outline-width: 0;
+    width: 634px;
+    height: 357.17px;
+}
+
+.apply {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid white;
+    outline-width: 0;
+    background-color: var(--primary);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+}
+
+.text_desc h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.apply:hover {
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.secondary_holder {
+    margin-top: 20px;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.fea-name {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+#features {
+    top: 0;
+    width: fit-content;
+    height: 250px;
+    background-color: white;
+    transition: .3s;
+    padding: 20px;
+    margin: 10px auto;
+    position: relative;
+}
+
+#features:hover {
+    top: -10px;
+    background-color: var(--primary);
+}
+
+.cardimg {
+    color: white;
+    background-color: var(--primary);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.card-h {
+    font-size: medium;
+}
+
+.card-p {
+    font-weight: 100;
+}
+
+.para {
+    font-weight: 200;
+}
+
+.brief-holder {
+    padding: 20px;
+   
+}
+
+.blue-bg {
+    font-weight: 200;
+    height: 100%;
+}
+
+.circle {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: #ffffff;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row {
+    display: flex;
+}
+
+.how-it-works.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid var(--primary);
+    z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.how-it-works2.row {
+    display: flex;
+}
+
+.how-it-works2.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works2.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid var(--primary);
+    z-index: 1;
+}
+
+.how-it-works2.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works2.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works2.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+
+.timeline hr {
+    border-top: 3px solid var(--primary);
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline .corner {
+    border: 3px solid var(--primary);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+#l-r-t p {
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.t-head {
+    font-weight: 500;
+}
+
+.head h2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.domain {
+    width: 100%;
+    height: 100px;
+    transition: .3s;
+    justify-content: center;
+    padding: 20px 0 0 10px;
+}
+
+.domain:hover {
+    top: -12px;
+    background-color: var(--primary);
+    color: white;
+}
+
+.domain p {
+    font-weight: 100;
+    font-size: small;
+}
+
+.d-name {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.join_image img {
+    cursor: pointer;
+    border: none;
+    outline-width: 0;
+    width: 1080px;
+    height: 607.px;
+}
+
+.join_image {
+    cursor: pointer;
+    border: none;
+    outline-width: 0;
+    background-color: white;
+}
+
+.imessage {
+    background-color: white;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+    height: 644px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.imessage p {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 95%;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+    display: block;
+    width: 80%;
+    margin: 5px;
+}
+
+small {
+    align-items: flex-end;
+}
+
+.imessage p::before,
+.imessage p::after {
+    bottom: -0.1rem;
+    content: "";
+    height: 1rem;
+    position: absolute;
+}
+
+p.from-me {
+    align-self: flex-end;
+    background-color: #00d2b5;
+    color: #fff;
+}
+
+p.from-me::before {
+    border-bottom-left-radius: 0.8rem 0.7rem;
+    border-right: 1rem solid #00d2b5;
+    right: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+
+p.from-me::after {
+    background-color: #fff;
+    border-bottom-left-radius: 0.5rem;
+    border-right: 1rem solid #ffffff;
+    right: -46px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+}
+
+p.from-them {
+    align-items: flex-start;
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+p.from-them:before {
+    border-bottom-right-radius: 0.8rem 0.7rem;
+    border-left: 1rem solid #e5e5ea;
+    left: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+
+p.from-them::after {
+    background-color: #fff;
+    border-bottom-right-radius: 0.5rem;
+    left: 20px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+}
+
+.gf {
+    position: relative;
+    top: -30px;
+    transition: .7s all ease;
+}
+
+.gf:hover {
+    top: 0;
+}
+
+.user {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.last p {
+    font-size: medium;
+    color: #00d2b5;
+}
+
+.last h5 {
+    font-size: large;
+}
+
+.FAQs {
+    margin-top: 50px;
+}
+
+.row{
+    display: flex;
+}
+join_image

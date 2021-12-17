@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form|SPS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <section id=" header ">
+        <div class="row "></div>
+        <div class="container ">
+            <div class="row header_holder ">
+                <div class="header col-12 text-center mt-3 ">
+                    <a href="index.html " class="logo_text ">SPS<span class="logo_dot ">.</span> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form ">
+        <div class="form-holder row ">
+            <div class="temp ">
+
+            </div>
+            <div class="form col-12 col-lg-10 mt-2 ">
+                <h1 class="header ">REGISTRATION</h1>
+                <form>
+                    <div class="input-holder ">
+                        <input id="name" onchange="name(this) " class=" lfull " type="text " placeholder="Full Name ">
+                    </div>
+                    <div class="row ">
+                        <div class="input-holder col-md-6 ml-3 mr-3 ">
+                            <input id="place" class="lhalf " type="text " placeholder="place ">
+                        </div>
+
+                        <div class="input-holder-h col-md-5 ml-3 mr-3 ">
+                            <select id="Gender " class="lhalf ">
+                        <option selected value="Gender "  disabled>Gender</option>
+                        <option value="Male ">Male</option>
+                        <option value="Female ">Female</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="input-holder ">
+                        <input id="email" class="lfull " type="email " placeholder="Email ">
+                    </div>
+                    <div class="row ">
+                        <div class="input-holder col-md-6 ml-3 mr-3 ">
+                            <input id="number" class="lhalf " type="number " placeholder="Contact No ">
+                        </div>
+
+                        <div class="input-holder-h col-md-5 ml-3 mr-3 ">
+                            <select id="Status " class="lhalf ">
+                        <option selected value="Status "  disabled>Employment Status</option>
+                        <option value="1 ">Employed</option>
+                        <option value="Fresher ">Fresher</option>
+                        <option value="Student ">Student</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="input-holder ">
+                        <select id="Educational Qualification " class="lfull ">
+                            <option selected value="Educational Qualification "  disabled>Educational Qualification</option>
+                            <option selected value="education ">Education</option>
+                                    <option value="B.Tech ">B.Tech</option>
+                                    <option value="B.sc ">B.sc</option>
+                                    <option value="+2 ">+2</option>
+                            </select>
+                    </div>
+                    <div class="input-holder ">
+                        <input id="college" class="lfull " type="text " placeholder="Name of College/Organisation ">
+                    </div>
+                    <div class="input-holder-h ">
+                        <input id="year" class="lhalf " type="number " placeholder="Year of Graduation ">
+                    </div>
+                    <div class="input-holder ">
+                        <input id="tumay" class="lfull " type="text " placeholder="Tell us more about you ">
+                    </div>
+                    <div class="input-holder ">
+                        <input id="wdywtj" class="lfull " type="text " placeholder="Why do you want to join SPS? ">
+                    </div>
+                    <div class="input-holder ">
+                        <input id="wmytwh" class="lfull " type="text " placeholder="What motivate you to work hard? ">
+                    </div>
+                    <div class="input-holder ">
+                        <input id="fwdyla" class="lfull " type="text " placeholder="From where did you learn about SPS? ">
+                    </div>
+                    <div class="input-holder ">
+
+                        <input  type="checkbox" id="A-faqs" name="" value="true"><label class="" for=" A-faqs ">  I agree that I have read and understood all the</label>
+                        <a class="FAQS" href=" index.html ">FAQs</a>
+                    </div>
+                    <div class="button">
+                    <button name="submitHandler" class="xbtn xbtn--radius xbtn--green mt-5 text-center" type="submit">Register</button>
+                </div>
+            </form>
+
+            </div>
+            <div class="temp ">
+
+            </div>
+            <div class="row ">
+                <div class="col-12 text-center ">
+                    <p style="font-size: medium;color: lightgray; ">Copyright ©Packapeer Academy Pvt Ltd 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

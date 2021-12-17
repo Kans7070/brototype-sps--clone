@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    --primary: #00d2b5;
+}
+
+.header_holder {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.logo_text {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 500;
+}
+
+.logo_text:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.header span {
+    color: var(--primary);
+}
+
+.form-holder {
+    background-color: #f1f1f1;
+    width: auto;
+    height: auto;
+}
+
+.form {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 70px;
+}
+
+.temp {
+    width: 8%;
+    background-color: #f1f1f1;
+}
+
+.header {
+    color: var(--primary);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.input-holder {
+    background-color: white;
+    padding: 5px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.lfull {
+    height: 20px;
+    width: 100%;
+    font-size: 1em;
+    outline-width: 0;
+    border: none;
+}
+
+.temp1 {
+    width: 4%;
+    background-color: white;
+}
+
+.lhalf {
+    height: 20px;
+    width: 100%;
+    font-size: 1em;
+    outline-width: 0;
+    border: none;
+}
+
+.input-holder-h {
+    background-color: white;
+    padding: 5px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top: 20px;
+    width: 100%;
+}
+
+select {
+    height: 20px;
+    width: 100%;
+    font-size: 1em;
+    outline-width: 0;
+    border: none;
+}
+
+.FAQS {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.FAQS:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
